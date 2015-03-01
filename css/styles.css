@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Monda|Fugaz+One|Oleo+Script");
+@import url("http://fonts.googleapis.com/css?family=Gruppo|Megrim");
 
 html {
   font-size: 16px;
@@ -11,7 +11,7 @@ html {
 body {
   background-color: #ffffff;
   color: #808080;
-  font-family: 'Monda', helvetica, arial, verdana, sans-serif;
+  font-family: 'Megrim', cursive;
   font-size: 100%;
   line-height: 1.5;
   overflow-x: hidden;
@@ -232,14 +232,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fugaz One", serif;
+  font-family: 'Megrim', cursive;
   margin: 0.5em 0 0.5em;
   text-transform: uppercase;
 }
 h1,
 h2,
 h3 {
-  font-family: "Fugaz One", serif;
+  font-family: 'Megrim', cursive;
   font-weight: 400;
 }
 h4,
@@ -261,12 +261,22 @@ h1 {
 }
 h2 {
   color: #956868;
-  font-size: 2em;
+  font-size: 5em;
   opacity: .8;
 }
 @media only screen and (min-width: 768px) {
   h2 {
-    font-size: 2em;
+    font-size: 5em;
+  }
+}
+.name-title {
+  color: #956868;
+  font-size: .3em;
+  opacity: .8;
+}
+@media only screen and (min-width: 768px) {
+.name-title {
+    font-size: .3em;
   }
 }
 h3 {
@@ -337,7 +347,10 @@ h6 .small,
   padding-bottom: 0.5em;
 }
 .page-header span {
-  font-family: "Oleo Script", serif;
+  font-family: 'Megrim', cursive;
+}
+.page-header span span.name-title {
+  font-family: 'Gruppo', cursive;
 }
 .centered-header {
   margin: 0 auto 0.5em;

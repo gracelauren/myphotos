@@ -476,7 +476,7 @@ table,
 #albums .img-container {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 300px;
   height: 300px;
   margin-bottom: 30px;
   -moz-transition: all 0.5s ease;

@@ -475,10 +475,10 @@ table,
 #gallery .img-container,
 #albums .img-container {
   background-position: center center;
-  background-repeat: no-repeat;
-  /*background-size: auto 300px;*/
+  background-size: auto 300px;
   background-size: cover;
   height: 300px;
+  width: auto;
   margin-bottom: 30px;
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;

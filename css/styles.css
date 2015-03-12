@@ -476,7 +476,6 @@ table,
 #albums .img-container {
   background-position: center center;
   background-size: auto 300px;
-  background-size: cover;
   height: 300px;
   width: auto;
   margin-bottom: 30px;

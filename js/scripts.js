@@ -1,6 +1,6 @@
 
 $(function() {
-
+  $(window).load(function(){
     if ($('.isotopeWrapper').length) {
       var $container = $('.isotopeWrapper');
       // initialize isotope
@@ -31,5 +31,7 @@ $(function() {
     }
 
     window.onresize = function(){ location.reload(); }
+
+  });
 
 });

@@ -7,7 +7,6 @@ $(function() {
       $container.isotope({
         itemSelector: '.isotopeItem',
         layoutMode: 'fitRows',
-        resizable: false, // disable normal resizing
       });
       $("a[href='#top']").click(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");

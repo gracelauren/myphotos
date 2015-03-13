@@ -3,7 +3,6 @@ $(function() {
 
     if ($('.isotopeWrapper').length) {
       var $container = $('.isotopeWrapper');
-      var $resize = $('.isotopeWrapper').attr('id');
       // initialize isotope
       $container.isotope({
         itemSelector: '.isotopeItem',
@@ -31,4 +30,7 @@ $(function() {
       });
 
     }
+
+    window.onresize = function(){ location.reload(); }
+
 });

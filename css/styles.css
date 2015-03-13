@@ -84,6 +84,8 @@ hr {
 }
 
 #site-wrapper {
+  /*max-width: 1199.333px;
+  margin: 0 auto;*/
   padding-left: 0;
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -315,6 +317,7 @@ h6 {
     font-size: 1.11em;
   }
 }
+
 h1 small,
 .h1 small,
 h1 .small,
@@ -474,7 +477,8 @@ table,
 
 #gallery .img-container,
 #albums .img-container {
-  background-position: center center;
+  /*background-position: center center;*/
+  background: no-repeat;
   background-size: auto 300px;
   height: 300px;
   width: auto;
